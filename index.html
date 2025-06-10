@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="imagens/logo.png">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="imagens/logo.png" alt="Logo" class="header-logo">
+            <div>
+                <h1>Letícia Venturin Voltarelli</h1>
+                <h4>Meu Portfólio</h4>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-escondido" onclick="apareceMenu()">☰ Menu</div>
+
+    <nav>
+        <div class="menu" id="menu">
+            <a href="#sobre"><i class="fa-solid fa-user"></i> Sobre Mim</a>
+            <a href="#habilidades"><i class="fa-solid fa-lightbulb"></i> Habilidades</a>
+            <a href="#projetos"><i class="fa-solid fa-code"></i> Projetos</a>
+            <a href="#contato"><i class="fa-solid fa-envelope"></i> Contato</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="sobre" class="card sobre">
+            <div class="texto">
+                <h2>Sobre Mim</h2>
+                <br>
+                <p>Meu nome é Letícia Venturin Voltarelli.</p>
+                    <p>Sou uma pessoa calma e dedicada, que valoriza foco e equilíbrio em tudo o que faço. Tenho uma grande paixão por jogos, 
+                        especialmente aqueles que combinam mistério, realismo e uma história envolvente. Alguns dos meus favoritos são 
+                        The Painscreek Killings, Red Dead Redemption 2, The Last of Us (1 e 2), Detroit: Become Human e Life is Strange. 
+                        Esses jogos me cativam pela profundidade narrativa e pela experiência imersiva que proporcionam.</p>
+                    <p>Além dos jogos, sou apaixonado por esportes, com destaque para vôlei e Fórmula 1, que acompanho com entusiasmo. 
+                        Também adoro ler, especialmente gêneros como terror, mistério e dark romance. Meu autor favorito é Raphael Montes, 
+                        cuja escrita intensa e envolvente sempre me surpreende.</p>
+                    <p>A música faz parte da minha rotina e gosto de ouvir de tudo, menos sertanejo. Curto essa variedade porque acho que 
+                        cada estilo tem sua vibe e sempre traz algo novo pra animar o dia ou ajudar a relaxar.</p>
+            </div>
+            <div class="foto">
+                <img src="imagens/leticia.jpeg" class="aside-foto">
+            </div>
+        </section>
+    </main>
+
+    <section id="habilidades" class="card habilidades">
+        <h2>Minhas Habilidades</h2>
+        <div class="habilidades-grid">
+
+            <div class="habilidade-card">
+                <i class="fa-solid fa-clock" style="color: #1a237e;"></i>
+                <h3>Organização e Gestão do Tempo</h3>
+                <p>Capacidade de planejar, priorizar tarefas e administrar o tempo de forma eficiente.</p>
+            </div>
+
+            <div class="habilidade-card">
+                <i class="fa-solid fa-brain" style="color: #1a237e;"></i>
+                <h3>Inteligência Emocional</h3>
+                <p>Reconhecer, entender e gerenciar emoções, mantendo equilíbrio, empatia e controle emocional, mesmo em situações de estresse.</p>
+            </div>
+
+            <div class="habilidade-card">
+                <i class="fa-solid fa-bullseye" style="color: #1a237e;"></i>
+                <h3>Foco e Disciplina</h3>
+                <p>Manter a atenção em uma única tarefa e fazer o que precisa ser feito com constância, mesmo sem motivação.</p>
+            </div>
+
+            <div class="habilidade-card">
+                <i class="fa-solid fa-lightbulb" style="color: #1a237e;"></i>
+                <h3>Pensamento Crítico</h3>
+                <p>Analisar informações de forma lógica, refletir e tomar decisões conscientes, evitando julgamentos precipitados.</p>
+            </div>
+
+            <div class="habilidade-card">
+                <i class="fa-solid fa-filter" style="color: #1a237e;"></i>
+                <h3>Foco Seletivo</h3>
+                <p>Filtrar distrações e concentrar-se em uma atividade específica, ignorando estímulos irrelevantes.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projetos" class="card projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-grid">
+
+            <div class="projeto-card">
+                <img src="imagens/ecoclear.png" alt="Projeto 1">
+                <div class="projeto-info">
+                    <h3>Eco Clear</h3>
+                    <p>O projeto Eco Clear tem como objetivo monitorar a poluição industrial, medindo a emissão de poluentes e seus 
+                        impactos no meio ambiente e na saúde pública. O projeto busca promover a conscientização ambiental e 
+                        apoiar ações de sustentabilidade, contribuindo para o controle da poluição e práticas responsáveis.</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="imagens/alvoradaliteraria.png" alt="Projeto 2">
+                <div class="projeto-info">
+                    <h3>Alvorada Literária</h3>
+                    <p>O projeto Alvorada Literária tem como objetivo informar sobre o Pré-Modernismo, mostrando o contexto, as características e os principais autores e obras</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="imagens/geomundo.png" alt="Projeto 3">
+                <div class="projeto-info">
+                    <h3>Geo Mundo</h3>
+                    <p>O projeto Geo Mundo tem como objetivo informar a região urbana, a hierarquia urbana e os setores econômicos da 
+                        Região Metropolitana de Porto Alegre.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="card contato">
+        <h2>Entre em Contato</h2>
+
+        <div class="contato-links">
+            <a href="mailto:leticia.voltarelli@aluno.senai.br" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+
+            <a href="https://github.com/Leta7" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.instagram.com/leticia_voltarelli/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <a href="https://wa.me/5519991567782" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2025 | Letícia Venturin Voltarelli | SENAI</p>
+    </footer>
+
+    <script>
+        function apareceMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+
+</body>
+</html>
